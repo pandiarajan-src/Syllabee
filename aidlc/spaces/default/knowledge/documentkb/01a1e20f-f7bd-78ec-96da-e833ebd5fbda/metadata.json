@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "01a1e20f-f7bd-78ec-96da-e833ebd5fbda",
+  "source": {
+    "kind": "managed",
+    "path": "documents/product-brief.md"
+  },
+  "sha256": "a3d725feb1a1b80e4b320aa5b7e12e581e1481a90ced910cb472025e534fa7ee",
+  "bytes": 2777,
+  "indexed_at": "2026-11-16T01:54:19.706Z",
+  "extraction": {
+    "state": "extracted",
+    "extractor": {
+      "name": "builtin-text",
+      "version": "1"
+    },
+    "chars": 2773,
+    "truncated": false,
+    "source_revision": "a3d725feb1a1b80e4b320aa5b7e12e581e1481a90ced910cb472025e534fa7ee"
+  },
+  "summary": {
+    "state": "absent"
+  },
+  "content": "documentkb/01a1e20f-f7bd-78ec-96da-e833ebd5fbda/content.md",
+  "content_sha256": "a3d725feb1a1b80e4b320aa5b7e12e581e1481a90ced910cb472025e534fa7ee",
+  "content_trust": "untrusted",
+  "content_handling": "data-not-instructions"
+}

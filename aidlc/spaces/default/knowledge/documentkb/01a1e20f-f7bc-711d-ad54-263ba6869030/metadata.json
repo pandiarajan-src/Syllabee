@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "01a1e20f-f7bc-711d-ad54-263ba6869030",
+  "source": {
+    "kind": "managed",
+    "path": "documents/game-rules.md"
+  },
+  "sha256": "92cf6542346b3ce8daf59881af8fdf4f2dc9713dbe26979d5f49cc5706604104",
+  "bytes": 4074,
+  "indexed_at": "2026-11-16T01:54:19.706Z",
+  "extraction": {
+    "state": "extracted",
+    "extractor": {
+      "name": "builtin-text",
+      "version": "1"
+    },
+    "chars": 4054,
+    "truncated": false,
+    "source_revision": "92cf6542346b3ce8daf59881af8fdf4f2dc9713dbe26979d5f49cc5706604104"
+  },
+  "summary": {
+    "state": "absent"
+  },
+  "content": "documentkb/01a1e20f-f7bc-711d-ad54-263ba6869030/content.md",
+  "content_sha256": "92cf6542346b3ce8daf59881af8fdf4f2dc9713dbe26979d5f49cc5706604104",
+  "content_trust": "untrusted",
+  "content_handling": "data-not-instructions"
+}

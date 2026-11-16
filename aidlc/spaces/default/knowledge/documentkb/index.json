@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "id": "01a1e20f-f7bc-711d-ad54-263ba6869030",
+      "source": {
+        "kind": "managed",
+        "path": "documents/game-rules.md"
+      },
+      "sha256": "92cf6542346b3ce8daf59881af8fdf4f2dc9713dbe26979d5f49cc5706604104",
+      "bytes": 4074,
+      "indexed_at": "2026-11-16T01:54:19.706Z",
+      "extraction": {
+        "state": "extracted",
+        "extractor": {
+          "name": "builtin-text",
+          "version": "1"
+        },
+        "chars": 4054,
+        "truncated": false,
+        "source_revision": "92cf6542346b3ce8daf59881af8fdf4f2dc9713dbe26979d5f49cc5706604104"
+      },
+      "summary": {
+        "state": "absent"
+      },
+      "content": "documentkb/01a1e20f-f7bc-711d-ad54-263ba6869030/content.md",
+      "content_sha256": "92cf6542346b3ce8daf59881af8fdf4f2dc9713dbe26979d5f49cc5706604104"
+    },
+    {
+      "id": "01a1e20f-f7bd-78ec-96da-e833ebd5fbda",
+      "source": {
+        "kind": "managed",
+        "path": "documents/product-brief.md"
+      },
+      "sha256": "a3d725feb1a1b80e4b320aa5b7e12e581e1481a90ced910cb472025e534fa7ee",
+      "bytes": 2777,
+      "indexed_at": "2026-11-16T01:54:19.706Z",
+      "extraction": {
+        "state": "extracted",
+        "extractor": {
+          "name": "builtin-text",
+          "version": "1"
+        },
+        "chars": 2773,
+        "truncated": false,
+        "source_revision": "a3d725feb1a1b80e4b320aa5b7e12e581e1481a90ced910cb472025e534fa7ee"
+      },
+      "summary": {
+        "state": "absent"
+      },
+      "content": "documentkb/01a1e20f-f7bd-78ec-96da-e833ebd5fbda/content.md",
+      "content_sha256": "a3d725feb1a1b80e4b320aa5b7e12e581e1481a90ced910cb472025e534fa7ee"
+    },
+    {
+      "id": "01a1e20f-f7be-7784-9e22-d355033b12be",
+      "source": {
+        "kind": "managed",
+        "path": "documents/threat-model-seed.md"
+      },
+      "sha256": "eea5d5103134442fe1118a06591aa80540a93a80fb71903141729f356c48b9e6",
+      "bytes": 5552,
+      "indexed_at": "2026-11-16T01:54:19.706Z",
+      "extraction": {
+        "state": "extracted",
+        "extractor": {
+          "name": "builtin-text",
+          "version": "1"
+        },
+        "chars": 5548,
+        "truncated": false,
+        "source_revision": "eea5d5103134442fe1118a06591aa80540a93a80fb71903141729f356c48b9e6"
+      },
+      "summary": {
+        "state": "absent"
+      },
+      "content": "documentkb/01a1e20f-f7be-7784-9e22-d355033b12be/content.md",
+      "content_sha256": "eea5d5103134442fe1118a06591aa80540a93a80fb71903141729f356c48b9e6"
+    },
+    {
+      "id": "01a1e20f-f7bf-7b6a-9680-3ce06b484e53",
+      "source": {
+        "kind": "managed",
+        "path": "documents/ui-direction.md"
+      },
+      "sha256": "ba280b3fe1d8d4c3d32f374f607f09ab9c781eeb6c0151e486fb269712372af7",
+      "bytes": 4603,
+      "indexed_at": "2026-11-16T01:54:19.706Z",
+      "extraction": {
+        "state": "extracted",
+        "extractor": {
+          "name": "builtin-text",
+          "version": "1"
+        },
+        "chars": 4589,
+        "truncated": false,
+        "source_revision": "ba280b3fe1d8d4c3d32f374f607f09ab9c781eeb6c0151e486fb269712372af7"
+      },
+      "summary": {
+        "state": "absent"
+      },
+      "content": "documentkb/01a1e20f-f7bf-7b6a-9680-3ce06b484e53/content.md",
+      "content_sha256": "ba280b3fe1d8d4c3d32f374f607f09ab9c781eeb6c0151e486fb269712372af7"
+    }
+  ]
+}
