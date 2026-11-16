@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "01a1e20f-f7be-7784-9e22-d355033b12be",
+  "source": {
+    "kind": "managed",
+    "path": "documents/threat-model-seed.md"
+  },
+  "sha256": "eea5d5103134442fe1118a06591aa80540a93a80fb71903141729f356c48b9e6",
+  "bytes": 5552,
+  "indexed_at": "2026-11-16T01:54:19.706Z",
+  "extraction": {
+    "state": "extracted",
+    "extractor": {
+      "name": "builtin-text",
+      "version": "1"
+    },
+    "chars": 5548,
+    "truncated": false,
+    "source_revision": "eea5d5103134442fe1118a06591aa80540a93a80fb71903141729f356c48b9e6"
+  },
+  "summary": {
+    "state": "absent"
+  },
+  "content": "documentkb/01a1e20f-f7be-7784-9e22-d355033b12be/content.md",
+  "content_sha256": "eea5d5103134442fe1118a06591aa80540a93a80fb71903141729f356c48b9e6",
+  "content_trust": "untrusted",
+  "content_handling": "data-not-instructions"
+}

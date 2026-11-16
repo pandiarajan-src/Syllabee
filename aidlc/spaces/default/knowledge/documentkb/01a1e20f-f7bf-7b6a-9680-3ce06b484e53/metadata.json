@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "01a1e20f-f7bf-7b6a-9680-3ce06b484e53",
+  "source": {
+    "kind": "managed",
+    "path": "documents/ui-direction.md"
+  },
+  "sha256": "ba280b3fe1d8d4c3d32f374f607f09ab9c781eeb6c0151e486fb269712372af7",
+  "bytes": 4603,
+  "indexed_at": "2026-11-16T01:54:19.706Z",
+  "extraction": {
+    "state": "extracted",
+    "extractor": {
+      "name": "builtin-text",
+      "version": "1"
+    },
+    "chars": 4589,
+    "truncated": false,
+    "source_revision": "ba280b3fe1d8d4c3d32f374f607f09ab9c781eeb6c0151e486fb269712372af7"
+  },
+  "summary": {
+    "state": "absent"
+  },
+  "content": "documentkb/01a1e20f-f7bf-7b6a-9680-3ce06b484e53/content.md",
+  "content_sha256": "ba280b3fe1d8d4c3d32f374f607f09ab9c781eeb6c0151e486fb269712372af7",
+  "content_trust": "untrusted",
+  "content_handling": "data-not-instructions"
+}
