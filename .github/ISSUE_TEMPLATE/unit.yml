@@ -1,0 +1,56 @@
+name: Unit
+description: One unit of work inside an intent (becomes one pull request)
+title: "[Unit] "
+labels: ["unit"]
+body:
+  - type: input
+    id: parent_intent
+    attributes:
+      label: Parent intent
+      description: Issue number of the intent this unit belongs to.
+      placeholder: "#12"
+    validations:
+      required: true
+  - type: input
+    id: unit_name
+    attributes:
+      label: Unit name
+      description: Short kebab-case name, as AI-DLC names it.
+      placeholder: "auth-session"
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: What this unit delivers
+      description: Backend, frontend and tests together (a vertical slice).
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Other units, issues or settings that must be done first. Write "none" if there are none.
+      placeholder: "none"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance checks
+      description: Each line must be testable. Name the test type (unit, E2E, CI check).
+      placeholder: |
+        - [ ] Wrong passcode shows an error and no session cookie is set (unit + E2E)
+        - [ ] Cookie is HttpOnly, Secure, SameSite=Strict (unit)
+        - [ ] `make verify` exits 0
+    validations:
+      required: true
+  - type: dropdown
+    id: autonomy
+    attributes:
+      label: Autonomy mode
+      options:
+        - gated
+        - autonomous
+    validations:
+      required: true

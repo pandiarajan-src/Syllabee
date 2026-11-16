@@ -1,0 +1,7 @@
+*                              @pandiarajan-src
+/.github/                      @pandiarajan-src
+/scripts/                      @pandiarajan-src
+/SECURITY.md                   @pandiarajan-src
+/aidlc/spaces/*/memory/        @pandiarajan-src
+/.claude/settings.json         @pandiarajan-src
+/docs/sandbox-changelog.md     @pandiarajan-src

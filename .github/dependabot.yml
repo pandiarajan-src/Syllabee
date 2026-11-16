@@ -1,0 +1,70 @@
+# Dependabot version updates (weekly). Security updates are a separate switch in Settings -> Security.
+# The pip, npm and docker blocks are commented out until those folders/files exist; uncomment each with the code that adds it.
+# Adjust each `directory` to the folder that holds the manifest. If a folder does not exist yet,
+# Dependabot just reports an error in Insights -> Dependency graph -> Dependabot until it does.
+version: 2
+updates:
+  # Python backend (requirements.txt or pyproject.toml)
+  # - package-ecosystem: "pip"
+  #   directory: "/backend"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "monday"
+  #     time: "06:00"
+  #     timezone: "America/New_York"
+  #   open-pull-requests-limit: 5
+  #   commit-message:
+  #     prefix: "chore(deps)"
+  #   groups:
+  #     python-minor-patch:
+  #       update-types: ["minor", "patch"]
+
+  # React frontend (package.json + lock file)
+  # - package-ecosystem: "npm"
+  #   directory: "/frontend"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "monday"
+  #     time: "06:00"
+  #     timezone: "America/New_York"
+  #   open-pull-requests-limit: 5
+  #   commit-message:
+  #     prefix: "chore(deps)"
+  #   groups:
+  #     npm-minor-patch:
+  #       update-types: ["minor", "patch"]
+
+  # Playwright E2E, only if it has its own package.json (uncomment and fix the folder)
+  # - package-ecosystem: "npm"
+  #   directory: "/e2e"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "monday"
+  #   commit-message:
+  #     prefix: "chore(deps)"
+
+  # GitHub Actions used in .github/workflows
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "America/New_York"
+    labels: ["dependencies"]
+    commit-message:
+      prefix: "chore(ci)"
+    groups:
+      actions:
+        patterns: ["*"]
+
+  # Dockerfile base images (Dockerfile at the repo root)
+  # - package-ecosystem: "docker"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "monday"
+  #     time: "06:00"
+  #     timezone: "America/New_York"
+  #   commit-message:
+  #     prefix: "chore(deps)"
