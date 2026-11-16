@@ -3,6 +3,10 @@
 These rules apply to every stage whose `phase: construction` declaration
 imports them as the matching phase rule.
 
+## Construction
+- Before a checkpoint, run the Construction Verification Command and paste its exit status.
+- Do not mark a unit complete while any test is skipped.
+
 ## Code Completeness
 
 - Generate complete, runnable files — no partial implementations, no placeholder stubs unless explicitly marked TODO with a rationale
