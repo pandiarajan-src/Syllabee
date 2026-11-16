@@ -1,0 +1,70 @@
+name: Intent
+description: One AI-DLC intent (a goal that goes through a workflow profile)
+title: "[Intent] "
+labels: ["intent"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One issue per intent. Add the matching `profile:*` and `autonomy:*` labels after creating it.
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should be true when this intent is done? One short paragraph, no solution details.
+      placeholder: "A player can enter the passcode, see an empty board and log out."
+    validations:
+      required: true
+  - type: dropdown
+    id: profile
+    attributes:
+      label: Workflow profile
+      options:
+        - mvp
+        - enterprise
+        - feature
+        - infra
+        - bugfix
+        - security-patch
+        - express
+        - poc
+        - refactor
+        - workshop
+        - classic
+    validations:
+      required: true
+  - type: input
+    id: intent_folder
+    attributes:
+      label: Intent folder path
+      description: Where AI-DLC keeps this intent's records. Fill in once the folder exists.
+      placeholder: "aidlc/spaces/default/intents/<intent-id>"
+  - type: input
+    id: release
+    attributes:
+      label: Target release
+      placeholder: "v0.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: autonomy
+    attributes:
+      label: Autonomy mode
+      description: Gated = you approve each checkpoint. Autonomous = continues automatically, still stops on any failure or sandbox block.
+      options:
+        - gated
+        - autonomous
+    validations:
+      required: true
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Out of scope
+      description: What this intent will NOT do.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Before you submit
+      options:
+        - label: This issue contains no passcodes, tokens, secrets or answer words.
+          required: true

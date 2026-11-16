@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/pandiarajan-src/Syllabee/security/advisories/new
+    about: Use the private advisory form. Never open a public issue for a security problem.
